@@ -1,0 +1,54 @@
+/*Main*/
+body {
+    background-color: white;
+    font-family:Helvetica;
+    margin: 0;
+}
+
+a:link {
+    text-decoration: none; 
+    color: black;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    display: flex;
+    /*justify-content: space-between; /*Khoảng cách giữa các menu tự điều chỉnh đều nhau*/
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 16px; 
+    margin-left: auto;
+}
+
+.nav-icon {
+    height: 16px; /*Chiều cao bằng với các mục menu*/
+}
+
+/*.nav-icon:hover {
+    transform: scale(1.1);} /* Phóng to biểu tượng khi di chuột qua */
+
+
+.navbar img {
+    display: inline-block; /*Đảm bảo rằng hình ảnh được hiển thị như một khối inline để giữ căn chỉnh trong dòng với các liên kết.*/
+    padding-right: 10px;
+    margin-left: auto;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+

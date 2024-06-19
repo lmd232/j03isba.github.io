@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu with Search</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="menu-icon">
+                &#9776; Menu
+                <div class="dropdown-menu">
+                    <ul>
+                        <li>Quà tặng</li>
+                        <li>Sản phẩm mới</li>
+                        <li>Túi</li>
+                        <li>Đồ Nữ</li>
+                        <li>Đồ Nam</li>
+                        <li>Trang sức</li>
+                        <li>Đồng hồ</li>
+                        <li>Nước hoa</li>
+                        <li>Nghệ thuật sống</li>
+                        <li>Dịch vụ</li>
+                        <li>Thế giới của Louis Vuitton</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search-icon" onclick="toggleSearch()">
+                &#128269;
+            </div>
+        </div>
+        <div class="nav-center">
+            <img src="https://www.pngall.com/wp-content/uploads/5/Louis-Vuitton-Logo-PNG.png" alt="Louis Vuitton" class="logo">
+        </div>
+        <div class="nav-right">
+            <div class="contact">
+                Liên hệ với chúng tôi
+            </div>
+            <div class="favorite-icon">
+                &#9825;
+            </div>
+            <div class="user-icon">
+                &#128100;
+            </div>
+        </div>
+    </nav>
+
+    <div class="search-container" id="searchContainer">
+        <input type="text" placeholder='Tìm "LV By The Pool"'>
+        <div class="close-icon" onclick="toggleSearch()">&#10005;</div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
